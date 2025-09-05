@@ -39,7 +39,7 @@ pip install -r slowfast_requirements.txt
 ## Project Structure
 
 - **`src/data/`** - Data downloading, clip extraction, and dataset creation
-- **`src/tracking/`** - ByteTrack tracking and crowd behavior analysis
+- **`src/tracking/`** - ByteTrack tracking and crowd behavior analysis (The Bytetrack directory at root is an error I cannot delete for some reason!)
 - **`src/visual_head/`** - SlowFast visual feature extraction
 - **`src/multitask_model/`** - Model training and evaluation
 - **`src/full_pipeline/`** - End-to-end prediction pipeline with precomputed embeddings
